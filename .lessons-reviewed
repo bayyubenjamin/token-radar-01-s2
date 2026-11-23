@@ -1,0 +1,10 @@
+Lessons reviewed 23 Nov 2026 (Stage 2 remediation session) — read
+~/workspace/intelligence/lessons-learned.md and failed-hypotheses.md in full.
+Lessons applied to this entry:
+- FH-2 (rebuild byte-identik dari kode yang dibaca gagal authorship: cover-art v1 0,8%, trophy-guide v1 0,0%): builder S2 dilarang membaca starter main.ts / lib / dashboard dan file implementasi S1; bekerja dari prose spec only. Diverifikasi independen Stage 2 (overlap starter main.ts hanya 6,2%).
+- FH-6 (launch odds turun dengan umur vs data cross-sectional): hazard S2 di-fit dari data (IRLS logit), bukan asumsi; bukti held-out log-loss kini tampil di dashboard strip (fitted 0,647 vs assumed 0,808 vs base 0,695, 5 seeds) — perbaikan A1 remediasi.
+- FH-8 (file kecil pasca-seal menolak gta6-01 round 1): semua edit remediasi (strip hazard, klaim A2, screenshot baru, marker ini) dilakukan DI DALAM sesi tercatat ini dan akan masuk bundle; tidak ada edit lepas di luar sesi. Edit main.ts +47 B 16:55 WIB 23 Nov adalah Stage B dossier fix (lihat adversarial-review.md § Provenance) — didokumentasikan, bukan diulang.
+- FH-10 (output wajib MAKEFUN_OUTPUT_DIR): main.ts hanya menulis ke --output / MAKEFUN_OUTPUT_DIR; dossier.json ditulis ke outDir.
+- news-image-20261119 (noise juri): tidak ada klaim peringkat dari angka lokal; ekspektasi peringkat S2 UNKNOWN sampai judge mengukur.
+- tiny-chess (eksperimen sebelum asumsi): blind test comps 5/5 + walk-forward 3/3 + LOO; hazard diuji held-out 5 seeds sebelum dipakai.
+- gta6-01 (repo beku setelah seal): repo entry tidak diedit lagi setelah bundle dibuat, kecuali di sesi tercatat baru.
